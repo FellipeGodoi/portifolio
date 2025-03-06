@@ -1,0 +1,36 @@
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.caption {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-container:hover .caption {
+    visibility: visible;
+    opacity: 1;
+}
+
+.domain-rating {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.domain-rating i {
+    margin-right: 5px;
+}
+
+.titulo-icone{
+    color: var(--azul-principal);
+}

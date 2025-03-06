@@ -1,0 +1,43 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+span{
+  color: var(--azul-principal);
+  text-align: justify;
+}
+
+.section {
+  min-height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+#Apresentacao {
+  background-color: white;
+}
+
+#Tecnologias {
+  background-color: white;
+}
+
+#Sobre {
+  background-color: #dee2e6;
+}
+
+#Projetos {
+  background-color: #ced4da;
+}
+
+
+.rodape{
+  height: 3vh;
+  background: var(--azul-principal);
+}

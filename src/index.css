@@ -1,0 +1,14 @@
+#root {
+  --fonte-principal: 'Poppins', sans-serif !important;
+
+  --azul-principal:#2F4E80;
+  --azul-claro:#CCDAFB;
+
+  --headings-font-family: var(--fonte-principal);
+  --body-font-family: var(--fonte-principal);
+  --bs-body-font-family: var(--fonte-principal);
+  --bs-body-color: var(--azul-principal);
+  --bs--navbar-brand-color: var(--azul-claro);
+
+}
+

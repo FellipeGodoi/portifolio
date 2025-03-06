@@ -1,0 +1,21 @@
+.header{
+    font-family: var(--fonte-principal), sans-serif;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    position:fixed;
+
+}
+
+.navbar-nav .nav-link {
+    background: none;
+    border: none;
+    color: var(--azul-principal);
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: background 0.3s;
+}
+
+.navbar-nav .nav-link.active {
+    background-color: var(--azul-principal);
+    color: white !important;
+    border-radius: 5px;
+}
