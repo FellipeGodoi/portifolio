@@ -1,7 +1,7 @@
 body {
-  padding: 0px;
   margin: 0px;
   font-family: 'Poppins', sans-serif;
+  padding-top: 5vh;
 
 }
 
@@ -11,13 +11,19 @@ span{
 }
 
 .section {
-  min-height: 65vh;
+  /*min-height: 65vh;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
 
+}
+
+@media (min-width: 1200px) {
+  .section {
+    min-height: 50vh;
+  }
 }
 
 #Apresentacao {
@@ -29,7 +35,7 @@ span{
 }
 
 #Sobre {
-  background-color: #dee2e6;
+  background-color: white;
 }
 
 #Projetos {
@@ -41,3 +47,6 @@ span{
   height: 3vh;
   background: var(--azul-principal);
 }
+
+
+

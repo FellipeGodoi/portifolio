@@ -1,4 +1,5 @@
-import Astronauta from "../../imagens/imagensPortifolio/astronauta-com-lua.png";
+import Tablet from "../../imagens/imagensPortifolio/tablet astronauta.png";
+
 import "./StyleApresentacao.css"
 
 
@@ -8,10 +9,10 @@ export default function Apresentacao() {
         console.log("baixarCurriculo")
     }
     return (
-        <div className="container-lg d-flex justify-content-between apresentacao mt-5 mt-lg-0">
+        <div className="container-lg d-flex justify-content-between apresentacao">
             <div className="container-lg  d-flex flex-column col-lg-6 justify-content-between gap-3 py-5">
                 <div className="justify-content-start d-flex ">
-                    <span className="fw-bold fs-3 custom-text">Fellipe de Godoi Rodrigues da Silva</span>
+                    <span className="fw-bold fs-3 custom-text">Fellipe de Godoi</span>
                 </div>
                 <span className="text-justify custom-text fs-5 fw-semibold">
                     Olá! Sou estudante de Análise e Desenvolvimento de Sistemas na FATEC Mogi das
@@ -38,7 +39,7 @@ export default function Apresentacao() {
             <div className="d-none d-lg-block">
                 <img
                     alt="Astronauta"
-                    src={Astronauta}
+                    src={Tablet}
                     className="navbar-brand img-fluid"
                     style={{
                         height: "100%",
