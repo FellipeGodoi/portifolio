@@ -12,10 +12,10 @@ export default function Apresentacao() {
         <div className="container-lg d-flex justify-content-between apresentacao">
             <div className="container-lg  d-flex flex-column col-lg-6 justify-content-between gap-3 py-5">
                 <div className="justify-content-start d-flex ">
-                    <span className="fw-bold fs-3 custom-text">Fellipe de Godoi</span>
+                    <span className="fw-bold fs-3 custom-text">Olá me chamo Fellipe de Godoi</span>
                 </div>
                 <span className="text-justify custom-text fs-5 fw-semibold">
-                    Olá! Sou estudante de Análise e Desenvolvimento de Sistemas na FATEC Mogi das
+                    Sou estudante de Análise e Desenvolvimento de Sistemas na FATEC Mogi das
                     Cruzes e pretendo me tornar um desenvolvedor front-end web, mas com conhecimento
                     para atuar no back-end e com protótipos quando necessário.
                 </span>

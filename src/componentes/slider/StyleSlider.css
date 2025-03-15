@@ -1,0 +1,24 @@
+.carousel-img-sistema{
+    max-height: 2vh;
+    background: var(--azul-principal);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.carousel-img-prototipo{
+    max-height: 2vh;
+    background: var(--amarelo-claro);
+    color: var(--azul-principal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card-projeto{
+    background: linear-gradient(to top right, #e2edfd, white);
+
+}

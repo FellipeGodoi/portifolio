@@ -3,6 +3,7 @@ import Header from "./componentes/header/Header.tsx";
 import Apresentacao from "./sessoes/apresentacao/Apresentacao.tsx";
 import SecaoTecnologias from "./sessoes/tecnologias/SecaoTecnologias.tsx";
 import Sobre from "./sessoes/sobre/Sobre.tsx";
+import SecaoProjetos from "./sessoes/projetos/SecaoProjetos.tsx";
 
 function App() {
     return (
@@ -22,7 +23,7 @@ function App() {
                 </section>
 
                 <section id="Projetos" className="section">
-                    <h2>Projetos</h2>
+                    <SecaoProjetos/>
                 </section>
             </main>
             <div className="rodape d-flex justify-content-center">
