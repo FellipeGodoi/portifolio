@@ -1,54 +1,47 @@
-# React + TypeScript + Vite
+<img src="src/imagens/ImagensReadMe/Logo-portifolio.png" alt="Logo do portifolio" width="75">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# Portifolio com React, TypesScript e Bootstrap
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Bem-vindo ao meu portfólio! Este projeto foi desenvolvido utilizando React, TypeScript e Bootstrap para apresentar meus trabalhos e habilidades como desenvolvedor front-end.
 
-## Expanding the ESLint configuration
+## Tecnologias utilizadas
+* React - Biblioteca JavaScript para criação de interfaces dinâmicas.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+* TypeScript - Superset do JavaScript que adiciona tipagem estática.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+* Bootstrap - Framework CSS para criação de layouts responsivos.
+
+* Vite - Ferramenta para construção e otimização do projeto.
+
+## Como inicializar o projeto
+* Após baixar/clonar o repositório, abra um terminal no diretório do projeto.
+* Instale as dependências necessárias:
+```
+    npm install
+```
+* Inicie o projeto
+
+```
+    npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Imagens 
+### (1920 px largura)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+<img src="src/imagens/ImagensReadMe/Print_apresentação_pc.png" alt="Print da sessao de apresentacao" width="500">
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+<br/>
+
+<img src="src/imagens/ImagensReadMe/Print-tecnologias-pc.png" alt="Print da sessao de tecnologias" width="500">
+
+<br/>
+
+<img src="src/imagens/ImagensReadMe/Print-Sobre-pc.png" alt="Print da sessao de apresentacao" width="500">
+
+
+### (600 px de largura)
+<img src="src/imagens/ImagensReadMe/print-apresentacao-mobile.png" alt="Print da sessao de apresentacao" width="300">
+<img src="src/imagens/ImagensReadMe/print-tecnologias-mobile.png" alt="Print da sessao de apresentacao" width="300">
+<img src="src/imagens/ImagensReadMe/print-sobre-mobile.png" alt="Print da sessao de apresentacao" width="300">
+<img src="src/imagens/ImagensReadMe/print-projetos-mobile.png" alt="Print da sessao de apresentacao" width="300">

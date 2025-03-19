@@ -36,7 +36,7 @@ export default function Tecnologias() {
             <div>
                 <div className="d-flex justify-content-center flex-column">
                     <span className="fs-4 fw-bold mb-3 pt-5">Back-end</span>
-                    <div className="d-flex flex-wrap justify-content-between gap-4">
+                    <div className="d-flex flex-wrap justify-content-between">
                         <div className="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
                             <IconePersonalizado imagemUrl={TypeScript} titulo={"TypeScript"} dominio={3} />
                         </div>

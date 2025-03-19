@@ -23,13 +23,13 @@ const ImageSlider: React.FC<ImageSliderProps> = ({nomeProjeto, descricao, tarefa
     return (
         <div className="container d-lg-flex justify-content-between align-items-center gap-5 gap-lg-0">
             <div
-                style={{ height: "380px", color: "var(--azul-principal)" }}
-                className="card-projeto rounded py-3 col-lg-4 shadow container d-flex justify-content-start row"
+                style={{ height: "380px", color: "var(--azul-principal)"}}
+                className="card-projeto rounded col-12 py-3 col-lg-4 shadow container d-flex justify-content-start row"
             >
                 <h5 className="text-start">{nomeProjeto}</h5>
                 <p className="text-start justify">{descricao}</p>
                 <p className="fw-semibold text-start ">{tarefas}</p>
-                <div className="d-none d-md-flex column flex-wrap gap-2">
+                <div className=" d-flex column flex-wrap gap-2">
                     {tags.map((tag, index) => (
                         <h6
                             className="badge"
@@ -52,7 +52,7 @@ const ImageSlider: React.FC<ImageSliderProps> = ({nomeProjeto, descricao, tarefa
 
             <div
                 id={carouselId}
-                className="carousel slide"
+                className="carousel slide mt-3  mt-lg-0"
                 data-bs-ride="carousel"
                 style={{ maxWidth: "800px", width: "100%" }}
             >

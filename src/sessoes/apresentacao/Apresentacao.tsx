@@ -23,7 +23,7 @@ export default function Apresentacao() {
                     Este site foi desenvolvido em React com TypeScript. Visite meu GitHub ou entre em contato pelo LinkedIn!
                 </span>
 
-                <div className="botoes d-flex justify-content-sm-between ">
+                <div className="botoes d-flex justify-content-md-between ">
                     <div className="d-flex gap-lg-2">
                         <span className="ri-github-fill icones"/>
                         <span className="ri-linkedin-box-fill icones"/>
