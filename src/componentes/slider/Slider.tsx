@@ -45,7 +45,11 @@ const ImageSlider: React.FC<ImageSliderProps> = ({nomeProjeto, descricao, tarefa
                     ))}
                 </div>
                 <div className="d-flex column justify-content-between align-items-center">
-                    <a href={linkGit} target="_blank" className="ri-github-fill fs-2" />
+                    <a href={linkGit}
+                       target="_blank"
+                       className="ri-github-fill fs-2"
+                       style={{color: "var(--azul-principal)", textDecoration: "none"}}
+                    />
                     <span className="fw-semibold ">{status}</span>
                 </div>
             </div>

@@ -22,7 +22,7 @@ function App() {
                     <Sobre/>
                 </section>
 
-                <section id="Projetos" className="section">
+                <section id="Projetos" className="section mb-1">
                     <SecaoProjetos/>
                 </section>
             </main>
