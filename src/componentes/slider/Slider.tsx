@@ -8,7 +8,7 @@ interface ImageSliderProps {
     tarefas: string;
     tags: {tag: string, cor: string, fonteCor: string}[];
     images: { url: string; label: string }[];
-    //linkGit: string;
+    linkGit: string;
     status: string;
 
 }

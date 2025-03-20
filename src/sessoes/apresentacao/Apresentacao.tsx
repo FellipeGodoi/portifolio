@@ -1,12 +1,13 @@
 import Tablet from "../../imagens/imagensPortifolio/tablet astronauta.png";
-
 import "./StyleApresentacao.css"
-
+import {downloadPdf} from "../../utils/curriculoService/DownloadPDF.ts";
+import curriculo from "../../utils/curriculoService/pdfs/curriculo-Fellipe-de-Godoi.pdf"
 
 export default function Apresentacao() {
 
     function baixarCurriculo  (): void {
-        console.log("baixarCurriculo")
+        const pdfUrl = curriculo;
+        downloadPdf(pdfUrl, "CV-Fellipe-de-Godoi.pdf");
     }
     return (
         <div className="container-lg d-flex justify-content-between apresentacao">
@@ -25,8 +26,8 @@ export default function Apresentacao() {
 
                 <div className="botoes d-flex justify-content-md-between ">
                     <div className="d-flex gap-lg-2">
-                        <span className="ri-github-fill icones"/>
-                        <span className="ri-linkedin-box-fill icones"/>
+                        <a href="https://github.com/FellipeGodoi" target="_blank" className="ri-github-fill icones"/>
+                        <a href="https://www.linkedin.com/in/fellipe-godoi-b77367351/" target="_blank" className="ri-linkedin-box-fill icones"/>
                     </div>
                     <div className="d-flex align-items-center">
                         <span className="botao-curriculo fw-bold fs-5 px-3 py-2 " onClick={() => baixarCurriculo()}>
