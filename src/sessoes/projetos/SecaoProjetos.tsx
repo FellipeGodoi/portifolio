@@ -52,7 +52,7 @@ export default function SecaoProjetos(){
                 descricao="Esse é um sistema de gerenciamento de boletins informativos para auxiliar as publicações do grupo estudantil GEPPA"
                 tarefas="Fiquei responsavel pela criação de uma identidade visual, prototipação e desenvolvimento do front-end"
                 images={Geppa}
-                linkGit=""
+                linkGit="https://github.com/FellipeGodoi/Geppa-Front-End"
                 status={"Finalizado"}
                 tags={GeppaTags}
             />
