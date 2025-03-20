@@ -13,7 +13,7 @@ interface ImageSliderProps {
 
 }
 
-const ImageSlider: React.FC<ImageSliderProps> = ({nomeProjeto, descricao, tarefas, images, tags, status}) => {
+const ImageSlider: React.FC<ImageSliderProps> = ({nomeProjeto, descricao, tarefas, linkGit, images, tags, status}) => {
     if (images.length === 0) {
         return <p className="text-center">Nenhuma imagem disponível</p>;
     }
@@ -45,7 +45,7 @@ const ImageSlider: React.FC<ImageSliderProps> = ({nomeProjeto, descricao, tarefa
                     ))}
                 </div>
                 <div className="d-flex column justify-content-between align-items-center">
-                    <span className="ri-github-fill fs-2" />
+                    <a href={linkGit} target="_blank" className="ri-github-fill fs-2" />
                     <span className="fw-semibold ">{status}</span>
                 </div>
             </div>
